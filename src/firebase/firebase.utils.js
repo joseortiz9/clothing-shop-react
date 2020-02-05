@@ -13,6 +13,7 @@ const firebaseConfig = {
     appId: "1:492251333359:web:585042c4974b1ac4c5511a"
 };
 
+//create an user in db using google sign in or usual registration
 export const createUserProfileDocument = async (userAuth, additionalData) => {
     if (!userAuth) return;
 

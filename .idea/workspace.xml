@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f0ff2b-1d34-4c40-8f3e-572681aaafd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.comp.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Collection/collection.comp.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Collection/collection.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stripe-button/stripe-button.comp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.comp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.comp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -58,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -92,7 +84,7 @@
       <updated>1580032745083</updated>
       <workItem from="1580032746699" duration="47618000" />
       <workItem from="1580894766067" duration="16770000" />
-      <workItem from="1581056684456" duration="19552000" />
+      <workItem from="1581056684456" duration="25604000" />
     </task>
     <task id="LOCAL-00001" summary="added router and shop page">
       <created>1580075959153</created>
@@ -164,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581077300762</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="collection previews created and working with nested routes. issue of optimization finding the url for every collection">
+      <created>1581085894723</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581085894723</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,18 +180,19 @@
     <MESSAGE value="updated with reselect, implemented cart selectors for cartitems and itemscount" />
     <MESSAGE value="checkout page, and checkout comps working with the selectors" />
     <MESSAGE value="added remove and add items functionality to the checkout page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added remove and add items functionality to the checkout page" />
+    <MESSAGE value="collection previews created and working with nested routes. issue of optimization finding the url for every collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection previews created and working with nested routes. issue of optimization finding the url for every collection" />
   </component>
   <component name="WindowStateProjectService">
     <state x="455" y="109" width="1000" height="839" key="#SCSS" timestamp="1580043768957">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
     <state x="455" y="109" width="1000" height="839" key="#SCSS/0.34.1920.991@0.34.1920.991" timestamp="1580043768957" />
-    <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2" timestamp="1581077300681">
+    <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2" timestamp="1581085894572">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="1957" y="54" width="1356" height="949" key="CommitChangelistDialog2/0.34.3600.991@0.34.3600.991" timestamp="1580680931003" />
-    <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581077300681" />
+    <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581085894572" />
     <state x="419" y="258" width="1072" height="541" key="EditFileWatcherDialog" timestamp="1580043915698">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
@@ -201,30 +201,30 @@
       <screen x="0" y="34" width="1920" height="991" />
     </state>
     <state x="769" y="401" width="372" height="255" key="Github.ShareDialog/0.34.1920.991@0.34.1920.991" timestamp="1580047981964" />
-    <state width="1892" height="77" key="GridCell.Tab.0.bottom" timestamp="1581078772645">
+    <state width="1892" height="109" key="GridCell.Tab.0.bottom" timestamp="1581157810948">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="932" height="123" key="GridCell.Tab.0.bottom/0.34.1920.991@0.34.1920.991" timestamp="1580048660694" />
     <state width="1892" height="305" key="GridCell.Tab.0.bottom/0.34.3600.991@0.34.3600.991" timestamp="1580688234690" />
-    <state width="1892" height="77" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581078772645" />
-    <state width="1892" height="77" key="GridCell.Tab.0.center" timestamp="1581078772645">
+    <state width="1892" height="109" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581157810948" />
+    <state width="1892" height="109" key="GridCell.Tab.0.center" timestamp="1581157810948">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="932" height="123" key="GridCell.Tab.0.center/0.34.1920.991@0.34.1920.991" timestamp="1580048660693" />
     <state width="1892" height="305" key="GridCell.Tab.0.center/0.34.3600.991@0.34.3600.991" timestamp="1580688234690" />
-    <state width="1892" height="77" key="GridCell.Tab.0.center/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581078772645" />
-    <state width="1892" height="77" key="GridCell.Tab.0.left" timestamp="1581078772645">
+    <state width="1892" height="109" key="GridCell.Tab.0.center/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581157810948" />
+    <state width="1892" height="109" key="GridCell.Tab.0.left" timestamp="1581157810947">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="932" height="123" key="GridCell.Tab.0.left/0.34.1920.991@0.34.1920.991" timestamp="1580048660693" />
     <state width="1892" height="305" key="GridCell.Tab.0.left/0.34.3600.991@0.34.3600.991" timestamp="1580688234690" />
-    <state width="1892" height="77" key="GridCell.Tab.0.left/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581078772645" />
-    <state width="1892" height="77" key="GridCell.Tab.0.right" timestamp="1581078772645">
+    <state width="1892" height="109" key="GridCell.Tab.0.left/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581157810947" />
+    <state width="1892" height="109" key="GridCell.Tab.0.right" timestamp="1581157810948">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="932" height="123" key="GridCell.Tab.0.right/0.34.1920.991@0.34.1920.991" timestamp="1580048660693" />
     <state width="1892" height="305" key="GridCell.Tab.0.right/0.34.3600.991@0.34.3600.991" timestamp="1580688234690" />
-    <state width="1892" height="77" key="GridCell.Tab.0.right/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581078772645" />
+    <state width="1892" height="109" key="GridCell.Tab.0.right/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581157810948" />
     <state width="1892" height="305" key="GridCell.Tab.1.bottom" timestamp="1580688234691">
       <screen x="0" y="34" width="3600" height="991" />
     </state>
@@ -291,11 +291,11 @@
     </state>
     <state x="540" y="237" key="run.anything.popup/0.34.1920.991@0.34.1920.991" timestamp="1580043094356" />
     <state x="1013" y="237" key="run.anything.popup/0.34.3600.991@0.34.3600.991" timestamp="1580680384022" />
-    <state x="2646" y="0" width="840" height="1078" key="search.everywhere.popup" timestamp="1581085683496">
+    <state x="2646" y="0" width="840" height="1078" key="search.everywhere.popup" timestamp="1581158929142">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991@0.34.1920.991" timestamp="1580048311330" />
     <state x="1811" y="34" width="1575" height="989" key="search.everywhere.popup/0.34.3600.991@0.34.3600.991" timestamp="1580679605783" />
-    <state x="2646" y="0" width="840" height="1078" key="search.everywhere.popup/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581085683496" />
+    <state x="2646" y="0" width="840" height="1078" key="search.everywhere.popup/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581158929142" />
   </component>
 </project>

@@ -36,7 +36,13 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     return userRef;
 };
 
-
+/*
+* method used to fill/create a collection using the objectsToAdd, first call/create a reference Obj
+* from the string 'collectionKey'. Later iterate over the objectsToAdd in order to set() them inside
+* the collection.
+* batch is use to make only one call to the database, so we do the set to every obj to add inside batch
+* and later make a commit of all the sets made.
+* */
 export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
     const collectionRef = fireStore.collection(collectionKey);
 
@@ -47,6 +53,29 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
     });
 
     return await batch.commit();
+};
+
+
+
+/*
+* the accumulator is an empty array and the collection is the actual element fetched
+* from the transformedCollection. So it saves inside the accumulator a clean version
+* of the mapped collection using the title as the key and the collection as data.
+* */
+export const convertCollectionsSnapshotToMap = (collections) => {
+    const transformedCollection = collections.docs.map(doc => {
+        const { title, items } = doc.data();
+        return {
+            routeName: encodeURI(title.toLowerCase()),
+            id: doc.id,
+            title,
+            items
+        }
+    });
+    return transformedCollection.reduce((accumulator, collection) => {
+        accumulator[collection.title.toLowerCase()] = collection;
+        return accumulator;
+    }, {});
 };
 
 

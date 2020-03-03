@@ -12,17 +12,15 @@ import LoginRegisterPage from "./pages/login-register/login-register.comp";
 
 import { setCurrentUser } from "./redux/user/user.actions";
 import {selectCurrentUser} from "./redux/user/user.selectors";
-import {selectShopCollectionsForPreview} from './redux/shop/shop.selectors'
 
-import {auth, createUserProfileDocument, addCollectionAndDocuments} from "./firebase/firebase.utils";
+import {auth, createUserProfileDocument} from "./firebase/firebase.utils";
 
 
 class App extends React.Component {
-
     unsubscribeFromAuth = null;
 
     componentDidMount() {
-        const { setCurrentUser, collectionsArray } = this.props;
+        const { setCurrentUser } = this.props;
 
         this.unsubscribeFromAuth =
             auth.onAuthStateChanged(async userAuth => {
@@ -37,10 +35,6 @@ class App extends React.Component {
                     });
                 } else
                     setCurrentUser(userAuth);
-
-                addCollectionAndDocuments(
-                    'collections',
-                    collectionsArray.map(({title, items}) => ({title, items})));
             });
     }
 
@@ -72,7 +66,6 @@ class App extends React.Component {
 
 const mapStateToProps = createStructuredSelector({
     currentUser: selectCurrentUser,
-    collectionsArray: selectShopCollectionsForPreview
 });
 
 const mapDispatchToProps = dispatch => ({

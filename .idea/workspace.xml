@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f0ff2b-1d34-4c40-8f3e-572681aaafd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Collection/collection.container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.comp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +105,7 @@
       <workItem from="1585676774580" duration="6000" />
       <workItem from="1587502806960" duration="16000" />
       <workItem from="1587502838227" duration="9000" />
-      <workItem from="1588930721856" duration="3746000" />
+      <workItem from="1588930721856" duration="6950000" />
     </task>
     <task id="LOCAL-00001" summary="added router and shop page">
       <created>1580075959153</created>
@@ -241,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583534307262</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="google signin migrated to sagas side, root-saga for managing all sagas">
+      <created>1588934585070</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1588934585070</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,43 +257,45 @@
     <MESSAGE value="retrieve collections data from db and connected to redux inside shop.comp" />
     <MESSAGE value="refactored components inside shop using a spinner till they are fully loaded" />
     <MESSAGE value="implemented Thunk for managing the data fetching as a async redux action" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented Thunk for managing the data fetching as a async redux action" />
+    <MESSAGE value="google signin migrated to sagas side, root-saga for managing all sagas" />
+    <option name="LAST_COMMIT_MESSAGE" value="google signin migrated to sagas side, root-saga for managing all sagas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2094" y="179" width="1183" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583766571965">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2094" y="179" width="1183" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583766571965" />
-    <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2" timestamp="1583534307126">
-      <screen x="1680" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1957" y="54" width="1356" height="949" key="CommitChangelistDialog2/0.34.3600.991@0.34.3600.991" timestamp="1580680931003" />
-    <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583534307126" />
-    <state width="932" height="149" key="GridCell.Tab.0.bottom" timestamp="1588933178570">
+    <state x="319" y="65" width="1295" height="981" key="CommitChangelistDialog2" timestamp="1588934584862">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="932" height="149" key="GridCell.Tab.0.bottom/0.34.1920.991@0.34.1920.991" timestamp="1588933178570" />
+    <state x="319" y="65" key="CommitChangelistDialog2/0.34.1920.991@0.34.1920.991" timestamp="1588934584862" />
+    <state x="1957" y="54" width="1356" height="949" key="CommitChangelistDialog2/0.34.3600.991@0.34.3600.991" timestamp="1580680931003" />
+    <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583534307126" />
+    <state width="932" height="149" key="GridCell.Tab.0.bottom" timestamp="1588934591802">
+      <screen x="0" y="34" width="1920" height="991" />
+    </state>
+    <state width="932" height="149" key="GridCell.Tab.0.bottom/0.34.1920.991@0.34.1920.991" timestamp="1588934591802" />
     <state width="1892" height="305" key="GridCell.Tab.0.bottom/0.34.3600.991@0.34.3600.991" timestamp="1580688234690" />
     <state width="1892" height="107" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.34.1680.991@0.34.1680.991" timestamp="1583401038389" />
     <state width="1892" height="150" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1584294871848" />
-    <state width="932" height="149" key="GridCell.Tab.0.center" timestamp="1588933178569">
+    <state width="932" height="149" key="GridCell.Tab.0.center" timestamp="1588934591800">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="932" height="149" key="GridCell.Tab.0.center/0.34.1920.991@0.34.1920.991" timestamp="1588933178569" />
+    <state width="932" height="149" key="GridCell.Tab.0.center/0.34.1920.991@0.34.1920.991" timestamp="1588934591800" />
     <state width="1892" height="305" key="GridCell.Tab.0.center/0.34.3600.991@0.34.3600.991" timestamp="1580688234690" />
     <state width="1892" height="107" key="GridCell.Tab.0.center/1680.0.1920.1080/0.34.1680.991@0.34.1680.991" timestamp="1583401038389" />
     <state width="1892" height="150" key="GridCell.Tab.0.center/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1584294871848" />
-    <state width="932" height="149" key="GridCell.Tab.0.left" timestamp="1588933178569">
+    <state width="932" height="149" key="GridCell.Tab.0.left" timestamp="1588934591798">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="932" height="149" key="GridCell.Tab.0.left/0.34.1920.991@0.34.1920.991" timestamp="1588933178569" />
+    <state width="932" height="149" key="GridCell.Tab.0.left/0.34.1920.991@0.34.1920.991" timestamp="1588934591798" />
     <state width="1892" height="305" key="GridCell.Tab.0.left/0.34.3600.991@0.34.3600.991" timestamp="1580688234690" />
     <state width="1892" height="107" key="GridCell.Tab.0.left/1680.0.1920.1080/0.34.1680.991@0.34.1680.991" timestamp="1583401038388" />
     <state width="1892" height="150" key="GridCell.Tab.0.left/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1584294871848" />
-    <state width="932" height="149" key="GridCell.Tab.0.right" timestamp="1588933178570">
+    <state width="932" height="149" key="GridCell.Tab.0.right" timestamp="1588934591800">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="932" height="149" key="GridCell.Tab.0.right/0.34.1920.991@0.34.1920.991" timestamp="1588933178570" />
+    <state width="932" height="149" key="GridCell.Tab.0.right/0.34.1920.991@0.34.1920.991" timestamp="1588934591800" />
     <state width="1892" height="305" key="GridCell.Tab.0.right/0.34.3600.991@0.34.3600.991" timestamp="1580688234690" />
     <state width="1892" height="107" key="GridCell.Tab.0.right/1680.0.1920.1080/0.34.1680.991@0.34.1680.991" timestamp="1583401038389" />
     <state width="1892" height="150" key="GridCell.Tab.0.right/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1584294871848" />
@@ -369,23 +363,25 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2005" y="76" key="SettingsEditor/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581060928964" />
-    <state x="2819" y="182" width="628" height="713" key="Vcs.Push.Dialog.v2" timestamp="1583534354544">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="1139" y="201" width="628" height="713" key="Vcs.Push.Dialog.v2" timestamp="1588934627983">
+      <screen x="0" y="34" width="1920" height="991" />
     </state>
+    <state x="1139" y="201" key="Vcs.Push.Dialog.v2/0.34.1920.991@0.34.1920.991" timestamp="1588934627983" />
     <state x="2135" y="201" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.34.3600.991@0.34.3600.991" timestamp="1580680951067" />
     <state x="2819" y="182" width="628" height="713" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583534354544" />
-    <state x="1780" y="132" width="1720" height="793" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583767878284">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588936382131">
+      <screen x="0" y="34" width="1920" height="991" />
     </state>
+    <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.991@0.34.1920.991" timestamp="1588936382131" />
     <state x="1780" y="132" width="1720" height="793" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583767878284" />
     <state x="1013" y="237" key="run.anything.popup" timestamp="1580680384022">
       <screen x="0" y="34" width="3600" height="991" />
     </state>
     <state x="1013" y="237" key="run.anything.popup/0.34.3600.991@0.34.3600.991" timestamp="1580680384022" />
-    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup" timestamp="1588933430757">
+    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup" timestamp="1588935837754">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991@0.34.1920.991" timestamp="1588933430757" />
+    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991@0.34.1920.991" timestamp="1588935837754" />
     <state x="1811" y="34" width="1575" height="989" key="search.everywhere.popup/0.34.3600.991@0.34.3600.991" timestamp="1580679605783" />
     <state x="2646" y="0" width="840" height="1078" key="search.everywhere.popup/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583770841564" />
   </component>

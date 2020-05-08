@@ -10,17 +10,13 @@ import Checkout from "./pages/checkout/checkout.comp";
 import Header from "./components/header/header.comp";
 import LoginRegisterPage from "./pages/login-register/login-register.comp";
 
-import { setCurrentUser } from "./redux/user/user.actions";
 import {selectCurrentUser} from "./redux/user/user.selectors";
-
-import {auth, createUserProfileDocument} from "./firebase/firebase.utils";
 
 
 class App extends React.Component {
-    unsubscribeFromAuth = null;
+    //unsubscribeFromAuth = null;
 
     componentDidMount() {
-        const { setCurrentUser } = this.props;
 
         /*this.unsubscribeFromAuth =
             auth.onAuthStateChanged(async userAuth => {
@@ -68,8 +64,4 @@ const mapStateToProps = createStructuredSelector({
     currentUser: selectCurrentUser,
 });
 
-const mapDispatchToProps = dispatch => ({
-    setCurrentUser: user => dispatch(setCurrentUser(user))
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps)(App);

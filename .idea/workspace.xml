@@ -31,8 +31,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f0ff2b-1d34-4c40-8f3e-572681aaafd5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,7 @@
       <workItem from="1587502838227" duration="9000" />
       <workItem from="1588930721856" duration="7876000" />
       <workItem from="1591340157021" duration="27000" />
-      <workItem from="1591340195032" duration="5059000" />
+      <workItem from="1591340195032" duration="5597000" />
     </task>
     <task id="LOCAL-00001" summary="added router and shop page">
       <created>1580075959153</created>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588937722116</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="heroku deployment try">
+      <created>1591345361292</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591345361292</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,40 +334,41 @@
     <MESSAGE value="implemented Thunk for managing the data fetching as a async redux action" />
     <MESSAGE value="google signin migrated to sagas side, root-saga for managing all sagas" />
     <MESSAGE value="email and pass login migrated to sagas and refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="email and pass login migrated to sagas and refactored" />
+    <MESSAGE value="heroku deployment try" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku deployment try" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2094" y="179" width="1183" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583766571965">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2094" y="179" width="1183" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583766571965" />
-    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1588937722038">
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1591345361161">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991@0.34.1920.991" timestamp="1588937722038" />
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991@0.34.1920.991" timestamp="1591345361161" />
     <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583534307126" />
-    <state width="1892" height="328" key="GridCell.Tab.0.bottom" timestamp="1591345241728">
+    <state width="1892" height="285" key="GridCell.Tab.0.bottom" timestamp="1591345341335">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="1892" height="328" key="GridCell.Tab.0.bottom/0.34.1920.991@0.34.1920.991" timestamp="1591345241728" />
+    <state width="1892" height="285" key="GridCell.Tab.0.bottom/0.34.1920.991@0.34.1920.991" timestamp="1591345341335" />
     <state width="1892" height="107" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.34.1680.991@0.34.1680.991" timestamp="1583401038389" />
     <state width="1892" height="150" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1584294871848" />
-    <state width="1892" height="328" key="GridCell.Tab.0.center" timestamp="1591345241727">
+    <state width="1892" height="285" key="GridCell.Tab.0.center" timestamp="1591345341335">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="1892" height="328" key="GridCell.Tab.0.center/0.34.1920.991@0.34.1920.991" timestamp="1591345241727" />
+    <state width="1892" height="285" key="GridCell.Tab.0.center/0.34.1920.991@0.34.1920.991" timestamp="1591345341335" />
     <state width="1892" height="107" key="GridCell.Tab.0.center/1680.0.1920.1080/0.34.1680.991@0.34.1680.991" timestamp="1583401038389" />
     <state width="1892" height="150" key="GridCell.Tab.0.center/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1584294871848" />
-    <state width="1892" height="328" key="GridCell.Tab.0.left" timestamp="1591345241727">
+    <state width="1892" height="285" key="GridCell.Tab.0.left" timestamp="1591345341334">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="1892" height="328" key="GridCell.Tab.0.left/0.34.1920.991@0.34.1920.991" timestamp="1591345241727" />
+    <state width="1892" height="285" key="GridCell.Tab.0.left/0.34.1920.991@0.34.1920.991" timestamp="1591345341334" />
     <state width="1892" height="107" key="GridCell.Tab.0.left/1680.0.1920.1080/0.34.1680.991@0.34.1680.991" timestamp="1583401038388" />
     <state width="1892" height="150" key="GridCell.Tab.0.left/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1584294871848" />
-    <state width="1892" height="328" key="GridCell.Tab.0.right" timestamp="1591345241728">
+    <state width="1892" height="285" key="GridCell.Tab.0.right" timestamp="1591345341335">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="1892" height="328" key="GridCell.Tab.0.right/0.34.1920.991@0.34.1920.991" timestamp="1591345241728" />
+    <state width="1892" height="285" key="GridCell.Tab.0.right/0.34.1920.991@0.34.1920.991" timestamp="1591345341335" />
     <state width="1892" height="107" key="GridCell.Tab.0.right/1680.0.1920.1080/0.34.1680.991@0.34.1680.991" timestamp="1583401038389" />
     <state width="1892" height="150" key="GridCell.Tab.0.right/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1584294871848" />
     <state width="1892" height="305" key="GridCell.Tab.1.bottom" timestamp="1584294869768">
@@ -416,10 +423,10 @@
       <screen x="0" y="34" width="1920" height="991" />
     </state>
     <state x="324" y="76" key="SettingsEditor/0.34.1920.991@0.34.1920.991" timestamp="1591344881880" />
-    <state x="910" y="201" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1588937962850">
+    <state x="910" y="201" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1591345368367">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="910" y="201" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.34.1920.991@0.34.1920.991" timestamp="1588937962850" />
+    <state x="910" y="201" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.34.1920.991@0.34.1920.991" timestamp="1591345368367" />
     <state x="2819" y="182" width="628" height="713" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583534354544" />
     <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588936382131">
       <screen x="0" y="34" width="1920" height="991" />

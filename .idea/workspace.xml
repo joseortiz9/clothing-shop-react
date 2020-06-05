@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="70f0ff2b-1d34-4c40-8f3e-572681aaafd5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +128,8 @@
       <workItem from="1585676774580" duration="6000" />
       <workItem from="1587502806960" duration="16000" />
       <workItem from="1587502838227" duration="9000" />
-      <workItem from="1588930721856" duration="6950000" />
+      <workItem from="1588930721856" duration="7876000" />
+      <workItem from="1591340157021" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="added router and shop page">
       <created>1580075959153</created>
@@ -233,11 +257,42 @@
       <option name="project" value="LOCAL" />
       <updated>1588934585070</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="email and pass login migrated to sagas and refactored">
+      <created>1588937722116</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588937722116</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added router and shop page" />
@@ -258,17 +313,18 @@
     <MESSAGE value="refactored components inside shop using a spinner till they are fully loaded" />
     <MESSAGE value="implemented Thunk for managing the data fetching as a async redux action" />
     <MESSAGE value="google signin migrated to sagas side, root-saga for managing all sagas" />
-    <option name="LAST_COMMIT_MESSAGE" value="google signin migrated to sagas side, root-saga for managing all sagas" />
+    <MESSAGE value="email and pass login migrated to sagas and refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="email and pass login migrated to sagas and refactored" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2094" y="179" width="1183" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583766571965">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2094" y="179" width="1183" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583766571965" />
-    <state x="319" y="65" width="1295" height="981" key="CommitChangelistDialog2" timestamp="1588934584862">
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1588937722038">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="319" y="65" key="CommitChangelistDialog2/0.34.1920.991@0.34.1920.991" timestamp="1588934584862" />
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991@0.34.1920.991" timestamp="1588937722038" />
     <state x="1957" y="54" width="1356" height="949" key="CommitChangelistDialog2/0.34.3600.991@0.34.3600.991" timestamp="1580680931003" />
     <state x="1999" y="34" width="1295" height="981" key="CommitChangelistDialog2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583534307126" />
     <state width="932" height="149" key="GridCell.Tab.0.bottom" timestamp="1588934591802">
@@ -363,10 +419,10 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2005" y="76" key="SettingsEditor/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1581060928964" />
-    <state x="1139" y="201" width="628" height="713" key="Vcs.Push.Dialog.v2" timestamp="1588934627983">
+    <state x="910" y="201" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1588937962850">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="1139" y="201" key="Vcs.Push.Dialog.v2/0.34.1920.991@0.34.1920.991" timestamp="1588934627983" />
+    <state x="910" y="201" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.34.1920.991@0.34.1920.991" timestamp="1588937962850" />
     <state x="2135" y="201" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.34.3600.991@0.34.3600.991" timestamp="1580680951067" />
     <state x="2819" y="182" width="628" height="713" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.34.1680.991@1680.0.1920.1080" timestamp="1583534354544" />
     <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588936382131">

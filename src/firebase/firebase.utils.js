@@ -79,6 +79,20 @@ export const convertCollectionsSnapshotToMap = (collections) => {
 };
 
 
+/*
+* The use of Promise is to check with resolve if there is a userAuth set
+* and return it, if not so return the before value 'rejected' that is null
+* */
+export const getCurrentUser = () => {
+    return new Promise((resolve, reject) => {
+        const unsubscribe = auth.onAuthStateChanged(userAuth => {
+            unsubscribe();
+            resolve(userAuth);
+        }, reject)
+    });
+}
+
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 

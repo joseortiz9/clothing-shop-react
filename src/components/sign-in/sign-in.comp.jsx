@@ -1,10 +1,10 @@
 import React from "react";
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 import FormInput from "../form-input/form-input.comp";
 import CustomButton from "../custom-button/custom-button.comp";
 
-import {emailSignInStart, googleSignInStart} from "../../redux/user/user.actions";
+import { emailSignInStart, googleSignInStart } from "../../redux/user/user.actions";
 
 import './sign-in.styles.scss';
 

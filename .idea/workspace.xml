@@ -31,13 +31,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f0ff2b-1d34-4c40-8f3e-572681aaafd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.comp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.comp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login-register/login-register.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login-register/login-register.comp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +150,7 @@
       <workItem from="1588930721856" duration="7876000" />
       <workItem from="1591340157021" duration="27000" />
       <workItem from="1591340195032" duration="6122000" />
-      <workItem from="1593800202112" duration="8624000" />
+      <workItem from="1593800202112" duration="11298000" />
     </task>
     <task id="LOCAL-00001" summary="added router and shop page">
       <created>1580075959153</created>
@@ -305,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593980371381</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="saga to clear the cart when the user log out">
+      <created>1594026369642</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1594026369642</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,13 +366,14 @@
     <MESSAGE value="heroku deployment try" />
     <MESSAGE value="heroku deployment try1" />
     <MESSAGE value="sagas and actions for persist user session and logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="sagas and actions for persist user session and logout" />
+    <MESSAGE value="saga to clear the cart when the user log out" />
+    <option name="LAST_COMMIT_MESSAGE" value="saga to clear the cart when the user log out" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1593980371171">
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1594026369565">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593980371171" />
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594026369565" />
     <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991@0.34.1920.991" timestamp="1591345798481" />
     <state x="690" y="229" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593800246918">
       <screen x="0" y="34" width="1920" height="991" />

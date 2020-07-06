@@ -30,15 +30,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70f0ff2b-1d34-4c40-8f3e-572681aaafd5" name="Default Changelist" comment="sagas and actions for persist user session and logout">
+    <list default="true" id="70f0ff2b-1d34-4c40-8f3e-572681aaafd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <workItem from="1588930721856" duration="7876000" />
       <workItem from="1591340157021" duration="27000" />
       <workItem from="1591340195032" duration="6122000" />
-      <workItem from="1593800202112" duration="6876000" />
+      <workItem from="1593800202112" duration="8624000" />
     </task>
     <task id="LOCAL-00001" summary="added router and shop page">
       <created>1580075959153</created>
@@ -299,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591345798550</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="sagas and actions for persist user session and logout">
+      <created>1593980371381</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1593980371381</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,10 +361,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="sagas and actions for persist user session and logout" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1593980331961">
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1593980371171">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="319" y="34" key="CommitChangelistDialog2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593980331961" />
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593980371171" />
     <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991@0.34.1920.991" timestamp="1591345798481" />
     <state x="690" y="229" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593800246918">
       <screen x="0" y="34" width="1920" height="991" />
@@ -388,18 +394,19 @@
       <screen x="0" y="34" width="1920" height="991" />
     </state>
     <state x="324" y="76" key="SettingsEditor/0.34.1920.991@0.34.1920.991" timestamp="1591344881880" />
-    <state x="792" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1591345918788">
+    <state x="792" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593980378501">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
+    <state x="792" y="192" key="Vcs.Push.Dialog.v2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593980378501" />
     <state x="792" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.34.1920.991@0.34.1920.991" timestamp="1591345918788" />
     <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588936382131">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
     <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.991@0.34.1920.991" timestamp="1588936382131" />
-    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup" timestamp="1593979372205">
+    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup" timestamp="1594025253078">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593979372205" />
+    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594025253078" />
     <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991@0.34.1920.991" timestamp="1591342940087" />
   </component>
 </project>

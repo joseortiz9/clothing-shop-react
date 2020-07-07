@@ -10,10 +10,9 @@ const mapStateToProps = createStructuredSelector({
     isLoading: selectIsFetchingCollections
 });
 
-const CollectionsOverviewContainer = compose(
-    connect(mapStateToProps),
-    withSpinner
-)(CollectionsOverview);
+// compose evaluates from right to left, passing the right to the left height order components (withspinner and connect)
+// and is the same as writing the code of down
+const CollectionsOverviewContainer = compose(connect(mapStateToProps), withSpinner)(CollectionsOverview);
 
 export default CollectionsOverviewContainer;
 

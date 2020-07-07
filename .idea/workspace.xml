@@ -32,13 +32,11 @@
   <component name="ChangeListManager">
     <list default="true" id="70f0ff2b-1d34-4c40-8f3e-572681aaafd5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.comp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login-register/login-register.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login-register/login-register.comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.comp.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,7 @@
       <workItem from="1588930721856" duration="7876000" />
       <workItem from="1591340157021" duration="27000" />
       <workItem from="1591340195032" duration="6122000" />
-      <workItem from="1593800202112" duration="11298000" />
+      <workItem from="1593800202112" duration="22765000" />
     </task>
     <task id="LOCAL-00001" summary="added router and shop page">
       <created>1580075959153</created>
@@ -313,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594026369642</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="created saga for sign up user">
+      <created>1594028873769</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1594028873769</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,55 +372,65 @@
     <MESSAGE value="heroku deployment try1" />
     <MESSAGE value="sagas and actions for persist user session and logout" />
     <MESSAGE value="saga to clear the cart when the user log out" />
-    <option name="LAST_COMMIT_MESSAGE" value="saga to clear the cart when the user log out" />
+    <MESSAGE value="created saga for sign up user" />
+    <option name="LAST_COMMIT_MESSAGE" value="created saga for sign up user" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1594026369565">
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2" timestamp="1594028873671">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594026369565" />
+    <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594028873671" />
     <state x="319" y="34" width="1346" height="991" key="CommitChangelistDialog2/0.34.1920.991@0.34.1920.991" timestamp="1591345798481" />
     <state x="690" y="229" width="530" height="598" key="FileChooserDialogImpl" timestamp="1593800246918">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
     <state x="690" y="229" width="530" height="598" key="FileChooserDialogImpl/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593800246918" />
-    <state width="1892" height="285" key="GridCell.Tab.0.bottom" timestamp="1593962171745">
+    <state width="1892" height="285" key="GridCell.Tab.0.bottom" timestamp="1594065154782">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="1892" height="285" key="GridCell.Tab.0.bottom/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593962171745" />
+    <state width="1892" height="285" key="GridCell.Tab.0.bottom/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594065154782" />
     <state width="1892" height="285" key="GridCell.Tab.0.bottom/0.34.1920.991@0.34.1920.991" timestamp="1591346317752" />
-    <state width="1892" height="285" key="GridCell.Tab.0.center" timestamp="1593962171745">
+    <state width="1892" height="285" key="GridCell.Tab.0.center" timestamp="1594065154781">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="1892" height="285" key="GridCell.Tab.0.center/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593962171745" />
+    <state width="1892" height="285" key="GridCell.Tab.0.center/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594065154781" />
     <state width="1892" height="285" key="GridCell.Tab.0.center/0.34.1920.991@0.34.1920.991" timestamp="1591346317752" />
-    <state width="1892" height="285" key="GridCell.Tab.0.left" timestamp="1593962171745">
+    <state width="1892" height="285" key="GridCell.Tab.0.left" timestamp="1594065154781">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="1892" height="285" key="GridCell.Tab.0.left/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593962171745" />
+    <state width="1892" height="285" key="GridCell.Tab.0.left/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594065154781" />
     <state width="1892" height="285" key="GridCell.Tab.0.left/0.34.1920.991@0.34.1920.991" timestamp="1591346317752" />
-    <state width="1892" height="285" key="GridCell.Tab.0.right" timestamp="1593962171745">
+    <state width="1892" height="285" key="GridCell.Tab.0.right" timestamp="1594065154782">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state width="1892" height="285" key="GridCell.Tab.0.right/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593962171745" />
+    <state width="1892" height="285" key="GridCell.Tab.0.right/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594065154782" />
     <state width="1892" height="285" key="GridCell.Tab.0.right/0.34.1920.991@0.34.1920.991" timestamp="1591346317752" />
     <state x="324" y="76" key="SettingsEditor" timestamp="1591344881880">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
     <state x="324" y="76" key="SettingsEditor/0.34.1920.991@0.34.1920.991" timestamp="1591344881880" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1594043649842">
+      <screen x="0" y="34" width="1920" height="991" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594043649842" />
     <state x="792" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1593980378501">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
     <state x="792" y="192" key="Vcs.Push.Dialog.v2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1593980378501" />
     <state x="792" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.34.1920.991@0.34.1920.991" timestamp="1591345918788" />
-    <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588936382131">
+    <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594067073218">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
+    <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594067073218" />
     <state x="100" y="155" width="1720" height="728" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.991@0.34.1920.991" timestamp="1588936382131" />
-    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup" timestamp="1594025253078">
+    <state x="686" y="426" width="537" height="205" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594123791002">
       <screen x="0" y="34" width="1920" height="991" />
     </state>
-    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594025253078" />
+    <state x="686" y="426" width="537" height="205" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594123791002" />
+    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup" timestamp="1594071056657">
+      <screen x="0" y="34" width="1920" height="991" />
+    </state>
+    <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991/1920.0.1920.1080@0.34.1920.991" timestamp="1594071056657" />
     <state x="966" y="34" width="840" height="989" key="search.everywhere.popup/0.34.1920.991@0.34.1920.991" timestamp="1591342940087" />
   </component>
 </project>

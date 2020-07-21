@@ -2,7 +2,7 @@
 
 # personals
 /documents-info
-/public/images
+/client/public/images
 
 # dependencies
 /node_modules
